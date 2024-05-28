@@ -2,7 +2,11 @@ import img1 from "../../images/Rectangle 22.png";
 import avatar from "../../images/Ellipse 6.png";
 import img2 from "../../images/Rectangle 23.png";
 
+
 const HomeSec5 = () => {
+
+   
+
   return (
     <div className="lg:px-20">
       <div className="flex justify-center text-center my-10">
@@ -102,6 +106,9 @@ const HomeSec5 = () => {
           <p className="text-xs">8 min read | 25 Apr 2021</p>
         </div>
       </div>
+
+
+
     </div>
   );
 };
