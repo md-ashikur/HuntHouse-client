@@ -32,7 +32,7 @@ const Header = () => {
           <img src={logo4} alt="" />
         </div>
       </div>
-      <div className="-mt-20 w-auto h-screen">
+      <div className=" w-auto h-screen">
         <img src={headerbg} alt="" className="w-[100vw] h-screen" />
       </div>
     </div>
