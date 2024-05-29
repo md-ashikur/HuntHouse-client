@@ -12,9 +12,7 @@ const DashboardLayout = () => {
           <li>
             <NavLink to={"create"}>Add House</NavLink>
           </li>
-          <li>
-            <NavLink to={"update"}>Update House</NavLink>
-          </li>
+        
           
         </ul>
       </div>

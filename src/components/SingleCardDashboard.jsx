@@ -1,8 +1,8 @@
 /* eslint-disable react/prop-types */
+import { Link } from "react-router-dom";
 import avater from "../images/Ellipse 6.png";
-import { ToastContainer, toast } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
-
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const SingleCardDashboard = ({ house, onDelete }) => {
   const { id, img, houseName, price, cityName } = house;
@@ -46,9 +46,12 @@ const SingleCardDashboard = ({ house, onDelete }) => {
             >
               Delete
             </button>
-            <button className="text-base bg-primary px-3 rounded-xl">
-              Update
-            </button>
+            <Link to={`update/${id}`} className="text-base bg-primary px-3 rounded-xl flex items-center">
+              
+              <button >
+                Update
+              </button>
+            </Link>
           </div>
         </div>
       </div>
