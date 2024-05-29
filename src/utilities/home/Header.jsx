@@ -2,13 +2,13 @@ import logo1 from "../../images/traveloka_logo 2.png";
 import logo2 from "../../images/traveloka_logo 3.png";
 import logo3 from "../../images/traveloka_logo 4.png";
 import logo4 from "../../images/traveloka_logo 5.png";
-import headerbg from "../../images/Img.png";
+import headerbg from "../../images/image 6.png";
 
 const Header = () => {
   return (
     <div className="grid grid-cols-2 ">
       <div className="px-5 lg:px-20 flex flex-col justify-center">
-        <h1 className="text-5xl font-bold max-w-[496px]">
+        <h1 className="text-5xl font-bold max-w-[496px] text-secondary">
           Find The Place To Live Your Dreams Easily Here
         </h1>
         <p className="my-5">

@@ -2,11 +2,11 @@ import { GiBathtub } from "react-icons/gi";
 import { IoBed } from "react-icons/io5";
 import house from "../../images/Group 14.png";
 import pic1 from "../../images/Ellipse 6.png";
-const HomeSec3 = () => {
+const LetsTour = () => {
   return (
     <div className="grid grid-cols-2 px-5 lg:px-20 my-20">
       <div>
-        <p>Ready to Sell!</p>
+        <p className="text-third">Ready to Sell!</p>
         <h2 className="text-3xl font-bold">Let’s tour and see our house!</h2>
         <p className="max-w-[413px] my-5">
           Houses recommended by our partners that have been curated to become
@@ -50,4 +50,4 @@ const HomeSec3 = () => {
   );
 };
 
-export default HomeSec3;
+export default LetsTour;
