@@ -20,6 +20,7 @@ const Signup = () => {
   const navigate = useNavigate();
   const location = useLocation();
 
+  
   const from = location?.state?.from?.pathname || "/";
   const onSubmit = (data) => {
     const email = data.email;

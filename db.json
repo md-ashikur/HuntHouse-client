@@ -1,0 +1,67 @@
+{
+  "house": [
+    {
+      "id": "1",
+      "img": "https://images.unsplash.com/photo-1560026301-88340cf16be7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8aG91c2V8ZW58MHwxfDB8fHww",
+      "houseName": "Sunny Villa",
+      "price": 350000,
+      "cityName": "Los Angeles"
+    },
+    {
+      "id": "2",
+      "img": "https://images.unsplash.com/photo-1613977257365-aaae5a9817ff?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8aG91c2V8ZW58MHwxfDB8fHww",
+      "houseName": "Ocean Breeze",
+      "price": 450000,
+      "cityName": "San Francisco"
+    },
+    {
+      "id": "3",
+      "img": "https://images.unsplash.com/photo-1602343168117-bb8ffe3e2e9f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGhvdXNlfGVufDB8MXwwfHx8MA%3D%3D",
+      "houseName": "Mountain Retreat",
+      "price": 500000,
+      "cityName": "Denver"
+    },
+    {
+      "id": "4",
+      "img": "https://plus.unsplash.com/premium_photo-1689609950112-d66095626efb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGhvdXNlfGVufDB8MXwwfHx8MA%3D%3D",
+      "houseName": "Urban Oasis",
+      "price": 300000,
+      "cityName": "Chicago"
+    },
+    {
+      "id": "5",
+      "img": "https://images.unsplash.com/photo-1557434440-27ba0f1654e8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGhvdXNlfGVufDB8MXwwfHx8MA%3D%3D",
+      "houseName": "Country Cottage",
+      "price": 250000,
+      "cityName": "Nashville"
+    },
+    {
+      "id": "6",
+      "img": "https://images.unsplash.com/photo-1589129140837-67287c22521b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGhvdXNlfGVufDB8MXwwfHx8MA%3D%3D",
+      "houseName": "Lakeside Mansion",
+      "price": 750000,
+      "cityName": "Seattle"
+    },
+    {
+      "id": "7",
+      "img": "https://images.unsplash.com/photo-1598714805247-5dd440d87124?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGhvdXNlfGVufDB8MXwwfHx8MA%3D%3D",
+      "houseName": "Desert Home",
+      "price": 400000,
+      "cityName": "Phoenix"
+    },
+    {
+      "id": "8",
+      "img": "https://images.unsplash.com/photo-1597084440749-0235e60882d7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGhvdXNlfGVufDB8MXwwfHx8MA%3D%3D",
+      "houseName": "City Loft",
+      "price": 600000,
+      "cityName": "New York"
+    },
+    {
+      "id": "9",
+      "img": "https://images.unsplash.com/photo-1611602132416-da2045990f76?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjN8fGhvdXNlfGVufDB8MXwwfHx8MA%3D%3D",
+      "houseName": "Ashikur house",
+      "price": "20000",
+      "cityName": "bogura"
+    }
+  ]
+}
