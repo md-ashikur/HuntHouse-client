@@ -1,13 +1,6 @@
 {
   "house": [
     {
-      "id": "1",
-      "img": "https://images.unsplash.com/photo-1560026301-88340cf16be7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8aG91c2V8ZW58MHwxfDB8fHww",
-      "houseName": "Sunny Villa",
-      "price": 350000,
-      "cityName": "Los Angeles"
-    },
-    {
       "id": "2",
       "img": "https://images.unsplash.com/photo-1613977257365-aaae5a9817ff?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8aG91c2V8ZW58MHwxfDB8fHww",
       "houseName": "Ocean Breeze",
@@ -48,13 +41,6 @@
       "houseName": "Desert Home",
       "price": 400000,
       "cityName": "Phoenix"
-    },
-    {
-      "id": "8",
-      "img": "https://images.unsplash.com/photo-1597084440749-0235e60882d7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGhvdXNlfGVufDB8MXwwfHx8MA%3D%3D",
-      "houseName": "City Loft",
-      "price": 600000,
-      "cityName": "New York"
     },
     {
       "id": "9",

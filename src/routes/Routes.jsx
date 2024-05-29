@@ -47,12 +47,14 @@ export const router = createBrowserRouter([
             ),
           },
           {
-            path: "update",
+            path: "update/:id",
             element: (
               <PrivateRoute>
                 <UpdateHouse />
               </PrivateRoute>
             ),
+            loader: ({ params }) =>
+              fetch(`http://localhost:3000/shoes/${params.id}`),
           },
           {
             path: "create",
