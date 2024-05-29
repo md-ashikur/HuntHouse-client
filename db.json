@@ -38,16 +38,9 @@
     {
       "id": "7",
       "img": "https://images.unsplash.com/photo-1598714805247-5dd440d87124?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGhvdXNlfGVufDB8MXwwfHx8MA%3D%3D",
-      "houseName": "Desert Home",
-      "price": 400000,
+      "houseName": "As Desert Home",
+      "price": "10",
       "cityName": "Phoenix"
-    },
-    {
-      "id": "9",
-      "img": "https://images.unsplash.com/photo-1611602132416-da2045990f76?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjN8fGhvdXNlfGVufDB8MXwwfHx8MA%3D%3D",
-      "houseName": "Ashikur house",
-      "price": "20000",
-      "cityName": "bogura"
     }
   ]
 }

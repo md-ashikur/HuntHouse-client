@@ -1,4 +1,4 @@
-import { useState } from "react";
+
 import { useForm } from "react-hook-form";
 import { useLoaderData } from "react-router-dom";
 import { ToastContainer, toast } from "react-toastify";
@@ -7,26 +7,25 @@ import "react-toastify/dist/ReactToastify.css";
 const UpdateHouse = () => {
   const house = useLoaderData();
 
-  const [id, setId] = useState(house.id);
-  const [img, setImageURL] = useState(house.img);
-  const [brand, setBrand] = useState(house.houseName);
-  const [price, setPrice] = useState(house.price);
-  const [cityName, setCityName] = useState(house.cityName);
-
   const {
     register,
-    formState: { errors },
     handleSubmit,
-  } = useForm();
+    formState: { errors },
+    setValue,
+  } = useForm({
+    defaultValues: {
+      id: house.id,
+      img: house.img,
+      name: house.houseName,
+      price: house.price,
+      city: house.cityName,
+    },
+  });
 
   const onSubmit = async (data) => {
-    const id = data.id;
-    const houseName = data.name;
-    const img = data.img;
-    const cityName = data.city;
-    const price = data.price;
+    const { id, img, name: houseName, price, city: cityName } = data;
 
-    const alldata = { id, img, houseName, price, cityName };
+    const updatedHouse = { id, img, houseName, price, cityName };
 
     alert("Confirm Update product");
 
@@ -35,7 +34,7 @@ const UpdateHouse = () => {
       headers: {
         "Content-type": "application/json",
       },
-      body: JSON.stringify(alldata),
+      body: JSON.stringify(updatedHouse),
     })
       .then((res) => res.json())
       .then((data) => {
@@ -47,14 +46,12 @@ const UpdateHouse = () => {
   return (
     <div>
       <section className="py-20 px-20 bg-[#e5f0fd]">
-        <h1 className="text-center font-bold text-2xl">Edit product {price}</h1>
+        <h1 className="text-center font-bold text-2xl">Edit product</h1>
         <div className="w-[40vw] bg-white mx-auto my-7 p-10 rounded-lg">
           <form onSubmit={handleSubmit(onSubmit)} className="my-5">
             {/* House ID */}
             <div>
               <input
-                value={id}
-                onChange={(e) => setId(e.target.value)}
                 className="outline-none border-inherit border my-2 px-5 py-3 w-full h-[50px] rounded-2xl"
                 {...register("id", {
                   required: "House ID is required",
@@ -72,8 +69,6 @@ const UpdateHouse = () => {
             <div>
               <input
                 placeholder="House image*"
-                value={img}
-                onChange={(e) => setImageURL(e.target.value)}
                 className="outline-none border-inherit border my-2 px-5 py-3 w-full h-[50px] rounded-2xl"
                 {...register("img", {
                   required: "House image is required",
@@ -91,8 +86,6 @@ const UpdateHouse = () => {
             <div>
               <input
                 placeholder="House Name*"
-                value={brand}
-                onChange={(e) => setBrand(e.target.value)}
                 className="outline-none border-inherit border my-2 px-5 py-3 w-full h-[50px] rounded-2xl"
                 {...register("name", {
                   required: "House name is required",
@@ -110,8 +103,6 @@ const UpdateHouse = () => {
             <div>
               <input
                 placeholder="House Price"
-                value={price}
-                onChange={(e) => setPrice(e.target.value)}
                 className="outline-none border-inherit border my-2 px-5 py-3 w-full h-[50px] rounded-2xl"
                 {...register("price", {
                   required: "House price is required",
@@ -129,8 +120,6 @@ const UpdateHouse = () => {
             <div>
               <input
                 placeholder="City"
-                value={cityName}
-                onChange={(e) => setCityName(e.target.value)}
                 className="outline-none border-inherit border my-2 px-5 py-3 w-full h-[50px] rounded-2xl"
                 {...register("city", {
                   required: "City is required",
